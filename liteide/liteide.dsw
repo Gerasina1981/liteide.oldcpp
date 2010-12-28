@@ -1,0 +1,89 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "classview"=.\plugins\classview\classview.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name cppparser
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "cppparser"=.\plugins\cbparser\cppparser.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "fileview"=.\plugins\fileview\fileview.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "liteide"=.\LiteIDE\LiteIDE.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name fileview
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name classview
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sciedit
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sciedit"=.\plugins\sciedit\sciedit.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
